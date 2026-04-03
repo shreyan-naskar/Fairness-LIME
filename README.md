@@ -27,22 +27,6 @@ No external LIME libraries are used. All logistic regression, local explanation,
 ├── bank+marketing/
 │   └── bank/
 │       └── bank-full.csv                  # Bank Marketing dataset (UCI)
-├── TaskXY/
-│   └── results/                           # Outputs from taskXY.py
-│       ├── taskXY_metrics.txt
-│       ├── selected_instance_summary.csv
-│       ├── interpretable_feature_names.txt
-│       └── *.npy                          # Weights, predictions, perturbations, etc.
-├── TaskZ/
-│   └── results/                           # Outputs from taskZ scripts
-│       ├── lime_coeffs_accurate.csv
-│       ├── lime_coeffs_fair.csv
-│       ├── taskZ_lime_summary.csv
-│       ├── submodular_top_accurate.csv
-│       ├── submodular_top_fair.csv
-│       ├── taskZ_submodular_summary.csv
-│       └── *.npy
-└── Assignment2_25CS60R41_report.pdf
 ```
 
 ---
